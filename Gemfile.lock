@@ -195,9 +195,11 @@ GEM
       puma (>= 3.8.0)
       railties (>= 5.2.0)
     dante (0.2.0)
-    ddtrace (0.47.0)
+    ddtrace (0.54.1)
+      debase-ruby_core_source (= 0.10.12)
       msgpack
     dead_end (1.1.6)
+    debase-ruby_core_source (0.10.12)
     debug_inspector (1.1.0)
     derailed_benchmarks (2.0.1)
       benchmark-ips (~> 2)
@@ -881,7 +883,7 @@ DEPENDENCIES
   cloudinary (~> 1.20)
   counter_culture (~> 2.8)
   cypress-rails (~> 0.5.0)
-  ddtrace (~> 0.47.0)
+  ddtrace (~> 0.54.1)
   derailed_benchmarks (~> 2.0)
   devise!
   devise_invitable (~> 2.0.5)
